@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiếng Anh chuyên ngành CNTT</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="./background/bg.css">
+</head>
+
+<body>
+    <div class="scene">
+        <div class="stars"></div>
+        <div class="sun"></div>
+    </div>
+    <div class="logo-modal">
+        <p class="logo-text"> Nhãn hiệu chuyên gia khuyên dùng</p>
+        <img src="./mylogo.png" alt="my logo" class="logo-img">
+    </div>
+    <div id="book-container">
+
+        <!--  -->
+        <!-- PAGE LAST-->
+        <div class="page">
+            <div class="page-front">
+                <div class="page-content">
+                    <p class="page-header">I'll happy if you like it!!</p>
+                    <ul class="content-list">
+                        <div class="english" style="margin-top: 20px;">My infor: </div>
+                        <li class="content-item">Link github /
+                            <a class="viet-nam" href="https://github.com/TranMinhHoang-pg">Github</a>
+                        </li>
+                        <li class="content-item">Facebook /
+                            <a class="viet-nam" href="https://www.facebook.com/hoangpg.minh/">Facebook</a>
+                        </li>
+                        <div class="english" style="margin-top: 20px;">Tính năng: </div>
+                        <li class="content-item"> - Click vào mặt trời để chuyển chế độ ngày & đêm</li>
+                        <li class="content-item"> - Tính năng mở trang ngẫu nhiên</li>
+                        <img style="position: absolute; display: inline-block;" src="./mylogo.png" alt="My logo">
+
+                    </ul>
+                </div>
+                <span class="page-number">24</span>
+                <span class="next-page" onclick="nextPage(13)">Next</span>
+            </div>
+            <div onclick="backPage(13)" class="page-back book-cover-back">
+                <h2> Nhà xuất bản: PG-Trần</h2>
+
+            </div>
+        </div>
+
+        <div class="book-body">
+            <!-- PAGE 22 - 23-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Hệ thống dữ liệu / Data system</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Shape  /</span><span class="viet-nam">Hình dạng</span></li>
+                            <li class="content-item"><span class="english">Curve  /</span><span class="viet-nam">Đường cong</span></li>
+                            <li class="content-item"><span class="english">Plotter  /</span><span class="viet-nam">Thiết bị đánh dấu</span></li>
+                            <li class="content-item"><span class="english">Tactile  /</span><span class="viet-nam">Thuộc về xúc giác</span></li>
+                            <li class="content-item"><span class="english">Virtual  /</span><span class="viet-nam">Ảo</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">22</span>
+                    <span class="next-page" onclick="nextPage(12)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Hệ thống dữ liệu / Data system</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Dual-density  /</span><span class="viet-nam">Dày gấp đôi</span></li>
+                            <li class="content-item"><span class="english">Blink  /</span><span class="viet-nam">Nhấp nháy</span></li>
+                            <li class="content-item"><span class="english">Monochromatic  /</span><span class="viet-nam">Đơn sắc</span></li>
+                            <li class="content-item"><span class="english">Sophisticated  /</span><span class="viet-nam">Phức tạp</span></li>
+                            <li class="content-item"><span class="english">Diverse  /</span><span class="viet-nam">Nhiều loại</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">23</span>
+                    <span class="back-page" onclick="backPage(12)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 20 - 21-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Hệ thống dứ liệu / Data system</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Electro sensitive  /</span><span class="viet-nam">Nhiễm điện</span></li>
+                            <li class="content-item"><span class="english">Electrostatic  /</span><span class="viet-nam">Tĩnh điện<noscript></noscript></span></li>
+                            <li class="content-item"><span class="english">Expose  /</span><span class="viet-nam">Phơi bày, phô ra</span></li>
+                            <li class="content-item"><span class="english">Guarantee  /</span><span class="viet-nam">Cam đoan, bảo đảm</span></li>
+                            <li class="content-item"><span class="english">Hammer  /</span><span class="viet-nam">Búa</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">20</span>
+                    <span class="next-page" onclick="nextPage(11)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Hệ thống dữ liệu / Data system</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Individual  /</span><span class="viet-nam">Cá nhân, cá thể</span></li>
+                            <li class="content-item"><span class="english">Inertia  /</span><span class="viet-nam">Quán tính</span></li>
+                            <li class="content-item"><span class="english">Irregularity  /</span><span class="viet-nam">Sự bất thường, không theo quy tắc</span></li>
+                            <li class="content-item"><span class="english">Establish  /</span><span class="viet-nam">Thiết lập</li>
+                            <li class="content-item"><span class="english">Permanent  /</span><span class="viet-nam">Vĩnh biệt</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">21</span>
+                    <span class="back-page" onclick="backPage(11)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 18 - 19-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Hệ thống dữ liệu / Data system</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Alternative /</span><span class="viet-nam">Sự thay thế</span></li>
+                            <li class="content-item"><span class="english">Apt  /</span><span class="viet-nam">Có khả năng, có khuynh hướng</span></li>
+                            <li class="content-item"><span class="english">Beam  /</span><span class="viet-nam">Chùm</span></li>
+                            <li class="content-item"><span class="english">Chain  /</span><span class="viet-nam">Chuỗi</span></li>
+                            <li class="content-item"><span class="english">Clarify  /</span><span class="viet-nam">Làm cho trong sáng dễ hiểu</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">18</span>
+                    <span class="next-page" onclick="nextPage(10)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Hệ thống dữ liệu / Data system</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Coil  /</span><span class="viet-nam">Cuộn</span></li>
+                            <li class="content-item"><span class="english">Condense  /</span><span class="viet-nam">Làm đặc lại, làm gọn lại</span></li>
+                            <li class="content-item"><span class="english">Describe  /</span><span class="viet-nam">Mô tả</span></li>
+                            <li class="content-item"><span class="english">Dimension  /</span><span class="viet-nam">Hướng</li>
+                            <li class="content-item"><span class="english">Drum  /</span><span class="viet-nam">Trống</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">19</span>
+                    <span class="back-page" onclick="backPage(10)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 16 - 17-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Cấu tạo máy móc / Machine structure</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Prediction  /</span><span class="viet-nam">Bộ điều khiển trùm</span></li>
+                            <li class="content-item"><span class="english">quality /</span><span class="viet-nam">Bao gồm</span></li>
+                            <li class="content-item"><span class="english">Quantity  /</span><span class="viet-nam">Chuyển đổi</span></li>
+                            <li class="content-item"><span class="english">Ribbon  /</span><span class="viet-nam">Trang thiết bị</span></li>
+                            <li class="content-item"><span class="english">Set  /</span><span class="viet-nam">Bộ dồn kênh</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">16</span>
+                    <span class="next-page" onclick="nextPage(9)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Cấu tạo máy móc / Machine structure</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Spin  /</span><span class="viet-nam">Mạng</span></li>
+                            <li class="content-item"><span class="english">Strike  /</span><span class="viet-nam">Ngoại vi</span></li>
+                            <li class="content-item"><span class="english">Superb  /</span><span class="viet-nam">Sự có thể tin cậy được</span></li>
+                            <li class="content-item"><span class="english">Supervisor  /</span><span class="viet-nam">Đơn mục đích</li>
+                            <li class="content-item"><span class="english">Thermal  /</span><span class="viet-nam">Hội thảo từ xa</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">17</span>
+                    <span class="back-page" onclick="backPage(9)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 14 - 15-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Cấu tạo máy móc / Machine structure</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Retain  /</span><span class="viet-nam">Giữ lại, duy trì</span></li>
+                            <li class="content-item"><span class="english">Semiconductor memory  /</span><span class="viet-nam">Bộ nhớ bán dẫn</span></li>
+                            <li class="content-item"><span class="english">Unique  /</span><span class="viet-nam">Duy nhất</span></li>
+                            <li class="content-item"><span class="english">Vertical  /</span><span class="viet-nam">Dọc, đường dọc</span></li>
+                            <li class="content-item"><span class="english">Wire  /</span><span class="viet-nam">Dây điện</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">14</span>
+                    <span class="next-page" onclick="nextPage(8)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Cấu tạo máy móc / Machine structure</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Matrix  /</span><span class="viet-nam">Ma trận</span></li>
+                            <li class="content-item"><span class="english">Microfilm  /</span><span class="viet-nam">Vi phim</span></li>
+                            <li class="content-item"><span class="english">Noticeable  /</span><span class="viet-nam">Dễ nhận thấy</span></li>
+                            <li class="content-item"><span class="english">Phenomenon  /</span><span class="viet-nam">Hiện tượng</li>
+                            <li class="content-item"><span class="english">Position  /</span><span class="viet-nam">Vị trí</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">15</span>
+                    <span class="back-page" onclick="backPage(8)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 12 - 13-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Cấu tạo máy móc / Machine structure</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Alloy  /</span><span class="viet-nam">Hợp kim</span></li>
+                            <li class="content-item"><span class="english">Bubble memory  /</span><span class="viet-nam">Bộ nhớ bọt</span></li>
+                            <li class="content-item"><span class="english">Capacity  /</span><span class="viet-nam">Dung lượng</span></li>
+                            <li class="content-item"><span class="english">Core memory  /</span><span class="viet-nam">Bộ nhớ lõi</span></li>
+                            <li class="content-item"><span class="english">Dominate  /</span><span class="viet-nam">Thống trị</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">12</span>
+                    <span class="next-page" onclick="nextPage(7)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Cấu tạo máy móc / Machine structure</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Ferrite ring  /</span><span class="viet-nam">Vòng nhiễm từ</span></li>
+                            <li class="content-item"><span class="english">Horizontal  /</span><span class="viet-nam">Ngang, đường ngang</span></li>
+                            <li class="content-item"><span class="english">Inspiration  /</span><span class="viet-nam">Sự cảm hứng</span></li>
+                            <li class="content-item"><span class="english">Intersection  /</span><span class="viet-nam">Giao điểm</li>
+                            <li class="content-item"><span class="english">Respective  /</span><span class="viet-nam">Tương ứng</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">13</span>
+                    <span class="back-page" onclick="backPage(7)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 10 - 11-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Cluster controller  /</span><span class="viet-nam">Bộ điều khiển trùm</span></li>
+                            <li class="content-item"><span class="english">Consist (of)  /</span><span class="viet-nam">Bao gồm</span></li>
+                            <li class="content-item"><span class="english">Convert  /</span><span class="viet-nam">Chuyển đổi</span></li>
+                            <li class="content-item"><span class="english">Equipment  /</span><span class="viet-nam">Trang thiết bị</span></li>
+                            <li class="content-item"><span class="english">Multiplexor  /</span><span class="viet-nam">Bộ dồn kênh</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">10</span>
+                    <span class="next-page" onclick="nextPage(6)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Network  /</span><span class="viet-nam">Mạng</span></li>
+                            <li class="content-item"><span class="english">Peripheral  /</span><span class="viet-nam">Ngoại vi</span></li>
+                            <li class="content-item"><span class="english">Reliability  /</span><span class="viet-nam">Sự có thể tin cậy được</span></li>
+                            <li class="content-item"><span class="english">Single-purpose  /</span><span class="viet-nam">Đơn mục đích</li>
+                            <li class="content-item"><span class="english">Teleconference  /</span><span class="viet-nam">Hội thảo từ xa</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">11</span>
+                    <span class="back-page" onclick="backPage(6)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 8- 9-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Invention  /</span><span class="viet-nam">Phát minh</span></li>
+                            <li class="content-item"><span class="english">Layer  /</span><span class="viet-nam">Tầng lớp</span></li>
+                            <li class="content-item"><span class="english">Mainframe computer  /</span><span class="viet-nam">Máy tính lớn</span></li>
+                            <li class="content-item"><span class="english">Ability  /</span><span class="viet-nam">Khả năng</span></li>
+                            <li class="content-item"><span class="english">Access  /</span><span class="viet-nam">Truy cập</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">8</span>
+                    <span class="next-page" onclick="nextPage(5)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Acoustic coupler  /</span><span class="viet-nam">Bộ ghép âm</span></li>
+                            <li class="content-item"><span class="english">Analyst  /</span><span class="viet-nam">Nhà phân tích</span></li>
+                            <li class="content-item"><span class="english">centerpiece  /</span><span class="viet-nam">Mảnh trung tâm</span></li>
+                            <li class="content-item"><span class="english">Channel  /</span><span class="viet-nam">Kênh</span></li>
+                            <li class="content-item"><span class="english">Characteristic  /</span><span class="viet-nam">Thuộc tính, nét tính cách</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">9</span>
+                    <span class="back-page" onclick="backPage(5)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 6 - 7-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Devise  /</span><span class="viet-nam">Phát minh</span></li>
+                            <li class="content-item"><span class="english">Different  /</span><span class="viet-nam">Khác biệt</span></li>
+                            <li class="content-item"><span class="english">Digital  /</span><span class="viet-nam">Số, thuộc về số</span></li>
+                            <li class="content-item"><span class="english">Etch  /</span><span class="viet-nam">Khắc axit</span></li>
+                            <li class="content-item"><span class="english">Experiment  /</span><span class="viet-nam">Thí nghiệm</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">6</span>
+                    <span class="next-page" onclick="nextPage(4)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Figure out  /</span><span class="viet-nam">Tính toán, tìm ra</span></li>
+                            <li class="content-item"><span class="english">Generation  /</span><span class="viet-nam">Thế hệ</span></li>
+                            <li class="content-item"><span class="english">History  /</span><span class="viet-nam">Lịch sử</span></li>
+                            <li class="content-item"><span class="english">Imprint  /</span><span class="viet-nam">In, khắc</span></li>
+                            <li class="content-item"><span class="english">Integrate  /</span><span class="viet-nam">Tích hợp</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">7</span>
+                    <span class="back-page" onclick="backPage(4)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 4 - 5-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Terminal  /</span><span class="viet-nam">Máy trạm</span></li>
+                            <li class="content-item"><span class="english">Transmit  /</span><span class="viet-nam">Truyền</span></li>
+                            <li class="content-item"><span class="english">Abacus  /</span><span class="viet-nam">Bàn tính</span></li>
+                            <li class="content-item"><span class="english">Allocate  /</span><span class="viet-nam">Phân phối</span></li>
+                            <li class="content-item"><span class="english">Analog  /</span><span class="viet-nam">Tương tự</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">4</span>
+                    <span class="next-page" onclick="nextPage(3)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Application  /</span><span class="viet-nam">Ứng dụng</span></li>
+                            <li class="content-item"><span class="english">Binary  /</span><span class="viet-nam">Nhị phân, thuộc về nhị phân</span></li>
+                            <li class="content-item"><span class="english">Calculation  /</span><span class="viet-nam">Tính toán</span></li>
+                            <li class="content-item"><span class="english">Command  /</span><span class="viet-nam">Ra lệnh, lệnh (trong máy tính)</span></li>
+                            <li class="content-item"><span class="english">Dependable  /</span><span class="viet-nam">Có thể tin cậy được</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">5</span>
+                    <span class="back-page" onclick="backPage(3)">Back</span>
+                </div>
+            </div>
+            <!-- PAGE 2 - 3-->
+            <div class="page">
+                <div class="page-front">
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Process  /</span><span class="viet-nam">Xử lý</span></li>
+                            <li class="content-item"><span class="english">Processor  /</span><span class="viet-nam">Bộ xử lý</span></li>
+                            <li class="content-item"><span class="english">Pulse  /</span><span class="viet-nam">Xung</span></li>
+                            <li class="content-item"><span class="english">Register  /</span><span class="viet-nam">Thanh ghi, đăng ký</span></li>
+                            <li class="content-item"><span class="english">Signal  /</span><span class="viet-nam">Tín hiệu</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">2</span>
+                    <span class="next-page" onclick="nextPage(2)">Next</span>
+                </div>
+                <div class="page-back">
+                    <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                    <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                    <div class="page-content">
+                        <p class="page-header">Các thuật toán / Algorithms</p>
+                        <ul class="content-list">
+                            <li class="content-item"><span class="english">Solution  /</span><span class="viet-nam">Giải pháp, lời giải</span></li>
+                            <li class="content-item"><span class="english">Store  /</span><span class="viet-nam">Lưu trữ</span></li>
+                            <li class="content-item"><span class="english">Subtraction  /</span><span class="viet-nam">Phép trừ</span></li>
+                            <li class="content-item"><span class="english">Switch  /</span><span class="viet-nam">Chuyển</span></li>
+                            <li class="content-item"><span class="english">Tap  /</span><span class="viet-nam">Ghi băng, băng</span></li>
+
+                        </ul>
+                    </div>
+                    <span class="page-number">3</span>
+                    <span class="back-page" onclick="backPage(2)">Back</span>
+                </div>
+            </div>
+        </div>
+        <!-- PAGE FIRST-->
+        <div class="page">
+            <div onclick="randomPage()" class="randomPage">
+                <P>Trang ngẫu nhiên</P>
+            </div>
+            <div onclick="detailPage()" class="detailPage">
+                <P>Trang chi tiết</P>
+            </div>
+            <div onclick="nextPage(1)" class="page-front book-cover-front">
+                <h1>Tiếng anh chuyên ngành công nghệ thông tin</h1>
+
+            </div>
+            <div class="page-back">
+                <span onclick="goToFrontBook()" class="back-book-cover-front">Bìa sách</span>
+                <span onclick="goToBackBook()" class="back-book-cover-back">Tác giả</span>
+                <span id="random-again">Random</span>
+                <div class="page-content">
+                    <p class="page-header">Các thuật toán / Algorithms</p>
+                    <ul class="content-list">
+                        <li class="content-item"><span class="english">Multiplication  /</span><span class="viet-nam">Phép nhân</span></li>
+                        <li class="content-item"><span class="english">Numeric  /</span><span class="viet-nam">Số học, thuộc về số học</span></li>
+                        <li class="content-item"><span class="english">Operation  /</span><span class="viet-nam">Thao tác</span></li>
+                        <li class="content-item"><span class="english">Output  /</span><span class="viet-nam">Ra, đưa ra</span></li>
+                        <li class="content-item"><span class="english">Perform  /</span><span class="viet-nam">Tiến hành, thi hành</span></li>
+
+                    </ul>
+                </div>
+                <span class="page-number">1</span>
+                <span class="back-page" onclick="backPage(1)">Back</span>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script>
+    var bookContainer = document.getElementById('book-container')
+    var page = document.getElementsByClassName('page')
+    var front = document.getElementsByClassName('page-front')
+    var back = document.getElementsByClassName('page-back')
+    var pageLength = page.length;
+
+    //GO TO detailPAGE
+    function detailPage() {
+        for (var h = 1; h < pageLength; h++) {
+            page[pageLength - h].style.transform = 'rotateY(-180deg) translateX(2px)'
+            front[pageLength - h].style.visibility = 'hidden'
+            back[pageLength - h].style.visibility = 'unset'
+
+            for (var i = 0; i < pageLength; i++) {
+                page[i].classList.remove('z-index-2', 'z-index-1')
+            }
+
+
+            bookContainer.style.transform = 'translateX(50%)'
+            page[pageLength - h].classList.add('z-index-2')
+
+
+        }
+    }
+    // ADD ANIMATION LOGO MODAL
+    document.addEventListener("DOMContentLoaded", function() {
+        var logoModal = document.querySelector('.logo-modal')
+        var logoText = document.querySelector('.logo-text')
+        var logoImg = document.querySelector('.logo-img')
+
+        setTimeout(() => {
+                logoModal.classList.add('logo-modal-animation')
+            },
+            9000);
+        setTimeout(() => {
+                logoModal.classList.add('visibility-hidden')
+            },
+            10000);
+        setTimeout(() => {
+            logoText.classList.add('logo-text-animation')
+            logoImg.classList.add('logo-img-animation')
+        }, 2000);
+
+    });
+    //GO TO FRONT BOOK
+    function goToFrontBook() {
+        for (var h = 0; h < pageLength; h++) {
+            page[h].style.transform = 'rotateY(0deg) '
+            front[h].style.visibility = 'unset'
+            back[h].style.visibility = 'hidden'
+
+            for (var i = 0; i < pageLength; i++) {
+                page[i].classList.remove('z-index-2', 'z-index-1')
+            }
+
+
+            bookContainer.style.transform = 'translateX(0)'
+            page[h].classList.add('z-index-2')
+
+
+        }
+
+
+    }
+    //GO TO BACK BOOK
+    function goToBackBook() {
+
+        for (var h = 1; h <= pageLength; h++) {
+            page[pageLength - h].style.transform = 'rotateY(-180deg) translateX(2px)'
+            front[pageLength - h].style.visibility = 'hidden'
+            back[pageLength - h].style.visibility = 'unset'
+
+            for (var i = 0; i < pageLength; i++) {
+                page[i].classList.remove('z-index-2', 'z-index-1')
+            }
+
+
+            bookContainer.style.transform = 'translateX(100%)'
+            page[pageLength - h].classList.add('z-index-2')
+
+
+        }
+    }
+    // NEXT PAGE
+    function nextPage(n) {
+        page[pageLength - n].style.transform = 'rotateY(-180deg) translateX(2px)'
+        front[pageLength - n].style.visibility = 'hidden'
+        back[pageLength - n].style.visibility = 'unset'
+
+        for (var i = 0; i < pageLength; i++) {
+            page[i].classList.remove('z-index-2', 'z-index-1')
+        }
+
+        if (n == 1) {
+            bookContainer.style.transform = 'translateX(50%)'
+        }
+        if (n == pageLength) {
+            bookContainer.style.transform = 'translateX(100%)'
+        }
+        if (n < pageLength) {
+            page[(pageLength - n) - 1].classList.add('z-index-1')
+        }
+        page[pageLength - n].classList.add('z-index-2')
+    }
+    // BACK PAGE
+    function backPage(n) {
+
+        if (n == 1) {
+            bookContainer.style.transform = 'translateX(0)'
+        }
+        if (n == pageLength) {
+            bookContainer.style.transform = 'translateX(50%)'
+        }
+
+        for (var i = 0; i < pageLength; i++) {
+            page[i].classList.remove('z-index-2', 'z-index-1')
+        }
+
+
+        if (n > 1) {
+            page[(pageLength - n) + 1].classList.add('z-index-1')
+        }
+        page[pageLength - n].classList.add('z-index-2')
+
+        setTimeout(() => {
+            page[pageLength - n].style.transform = 'rotateY(0)'
+            front[pageLength - n].style.visibility = 'unset'
+            back[pageLength - n].style.visibility = 'hidden'
+        }, 100);
+    }
+    // RANDOM PAGE
+    function randomPage() {
+
+        var randomIndex = Math.floor(Math.random() * pageLength)
+
+        if (randomIndex == 1 || randomIndex == 0) {
+            randomIndex = 2
+
+        }
+        for (var h = 1; h <= randomIndex; h++) {
+            page[pageLength - h].style.transform = 'rotateY(-180deg) translateX(2px)'
+            front[pageLength - h].style.visibility = 'hidden'
+            back[pageLength - h].style.visibility = 'unset'
+
+            for (var i = 0; i < pageLength; i++) {
+                page[i].classList.remove('z-index-2', 'z-index-1')
+            }
+
+            bookContainer.style.transform = 'translateX(50%)'
+
+            if (randomIndex == pageLength) {
+                bookContainer.style.transform = 'translateX(100%)'
+            }
+            if (randomIndex < pageLength) {
+                page[(pageLength - h) - 1].classList.add('z-index-1')
+            }
+            page[pageLength - h].classList.add('z-index-2')
+
+
+        }
+
+    }
+</script>
+
+<script type="module" src="./background/js/js.js">
+</script>
+
+</html>
